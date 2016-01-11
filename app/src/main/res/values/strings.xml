@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Redtube</string>
+    <string name="check_internet">Please check your internet connection state</string>
+    <string name="try_again">Try again</string>
+</resources>
