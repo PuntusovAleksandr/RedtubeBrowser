@@ -31,16 +31,4 @@ public class Categories {
     @SerializedName("categories")
     @Expose
     private List<Category> categories;
-
-    @Override
-    public String toString() {
-
-        String result = "!!!";
-
-        for (Category category : categories) {
-            result = result.concat(category.toString());
-        }
-
-        return result;
-    }
 }
